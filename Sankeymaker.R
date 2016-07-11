@@ -19,12 +19,12 @@ a %>%
   filter(Origin!=Genebank_country & 
            Genebank_country != Recipient) -> a
 
-## Step 0, make 3 levels
-# a[,1] <- paste(a[,1]," >",sep="")
-# a[,3] <- paste("> ",a[,3],sep="")
+# Step 0, make 3 levels
+a[,1] <- paste(a[,1]," >",sep="")
+a[,3] <- paste("> ",a[,3],sep="")
 
 ## or just 2 levels? To Genebank and back to see how ti works:
-a[,2] <- paste(a[,2],"GB",sep="")
+# a[,2] <- paste(a[,2],"GB",sep="")
 
 ## Step 1, get SOURCE -> Genebank relationships
 a %>%
@@ -45,27 +45,21 @@ names(GB2Sink)[1:2] <- c("FROM","TO")
 Boff <- bind_rows(Source2GB,GB2Sink)
 
 ## And now see what the biggest players are:
-Boff %>% filter(Val>50000) -> Boff
+Boff %>% filter(Val>100000) -> Boff
 
 
-## get nodes
-nodes <- data.frame(name=Boff[,1:2] %>% unlist %>% as.character() %>% unique())
+## get nodes and edges:
+source("https://gist.githubusercontent.com/mexindian/a77102065c75c69c22216f43cc3761be/raw/08b53d06a7caa4a7bee4f93d5879443223f385e6/easyModeNodeEdge.R")
+nodesEdges <- easyMode(Boff,0)
+nodes <- nodesEdges[[1]]
+edges <- nodesEdges[[2]]
 
-## and match to IDs to make edges
-Boff$From1 <- match(Boff$FROM,nodes$name)
-Boff$To1 <- match(Boff$TO,nodes$name)
+edges$thingie <- sub(' ', '', nodes[edges$from + 1, 'name'])
 
-## Clean up into Edges df
-Edges <- Boff %>% select(source=From1,target=To1,value=Val)
-
-EdgesPlot <- Edges
-
-## Edges are 0 indexed
-EdgesPlot$source <- EdgesPlot$source -1
-EdgesPlot$target <- EdgesPlot$target-1
-
+## this bug cost me about 4 hours to find.
+edges <-as.data.frame(edges)
 
 # Create graph
-sankeyNetwork(Links = EdgesPlot, Nodes = nodes,
-              Value = 'value', NodeID = 'name',
-              fontSize = 12, nodeWidth = 30)
+sankeyNetwork(Links = edges, Nodes = nodes, 
+              Source = 'from',Target = 'to', Value = 'Val', NodeID = 'name',
+              LinkGroup = 'thingie', fontSize = 15)
