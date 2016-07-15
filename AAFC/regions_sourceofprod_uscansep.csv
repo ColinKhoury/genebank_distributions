@@ -1,0 +1,198 @@
+"Region_origin","Region_recipient","Average"
+"West Asia","Canada",312.533333333333
+"West Asia","Andes",4.93333333333333
+"West Asia","East Asia",16.4
+"West Asia","NE Europe",24.6666666666667
+"West Asia","United States",13.3333333333333
+"SE Europe","Canada",34.7999999999999
+"SE Mediterranean","NE Europe",27.3333333333333
+"SE Mediterranean","Canada",47.9999999999999
+"SE Mediterranean","East Asia",8.93333333333333
+"SE Mediterranean","NW Europe",4.53333333333333
+"SE Mediterranean","South Asia",1.2
+"SE Mediterranean","West Asia",6.26666666666666
+"SE Mediterranean","United States",4.53333333333334
+"Temp. S. America","Temp. S. America",0.666666666666666
+"Temp. S. America","NE Europe",1.06666666666667
+"Temp. S. America","SE Europe",0.133333333333333
+"Temp. S. America","Canada",23.7333333333333
+"Temp. S. America","Andes",0.266666666666667
+"Temp. S. America","East Asia",0.933333333333333
+"Temp. S. America","NW Europe",3.33333333333333
+"Temp. S. America","West Asia",0.533333333333333
+"Central Asia","NE Europe",1.6
+"Central Asia","SE Europe",0.533333333333333
+"Central Asia","Canada",21.4666666666667
+"Central Asia","East Asia",2
+"Central Asia","NW Europe",4.13333333333333
+"Central Asia","United States",3.73333333333334
+"Australia New Zealand","Temp. S. America",0.133333333333333
+"Australia New Zealand","NE Europe",3.33333333333333
+"Australia New Zealand","Canada",35.2
+"Australia New Zealand","East Asia",3.46666666666666
+"Australia New Zealand","SE Europe",0.266666666666666
+"Australia New Zealand","SE Mediterranean",0.666666666666667
+"Australia New Zealand","NW Europe",1.46666666666667
+"Australia New Zealand","West Asia",0.4
+"Australia New Zealand","United States",0.8
+"NW Europe","Canada",262.133333333333
+"NW Europe","Andes",4.4
+"NW Europe","East Asia",20.9333333333333
+"NW Europe","West Asia",4
+"Central Asia","West Asia",0.533333333333333
+"South Asia","Canada",120.266666666667
+"NE Europe","Canada",305.866666666666
+"NE Europe","East Asia",22.9333333333333
+"NE Europe","NW Europe",33.0666666666666
+"NW Europe","SE Europe",3.73333333333333
+"NW Europe","Australia New Zealand",1.46666666666667
+"West Africa","East Asia",10.6666666666667
+"Andes","Canada",33.1999999999999
+"Andes","NW Europe",5.06666666666666
+"Andes","East Asia",1.86666666666667
+"Trop. S. America","Canada",19.3333333333333
+"Trop. S. America","East Asia",0.266666666666667
+"Trop. S. America","East Africa",0.666666666666667
+"Trop. S. America","NW Europe",0.266666666666667
+"Trop. S. America","NE Europe",0.266666666666667
+"SE Europe","East Asia",1.86666666666667
+"SE Europe","SE Mediterranean",1.33333333333333
+"SE Europe","NW Europe",4.13333333333333
+"SE Europe","NE Europe",3.73333333333334
+"West Africa","South Asia",12.5333333333333
+"Central Africa","South Asia",0.666666666666667
+"Canada","Temp. S. America",2.4
+"Canada","Australia New Zealand",6.26666666666666
+"Canada","NW Europe",82.9333333333334
+"Canada","NE Europe",46.8
+"Canada","SE Europe",10.6666666666667
+"Canada","Canada",588
+"Canada","Andes",2.66666666666667
+"Canada","East Asia",104.133333333333
+"Canada","SE Mediterranean",24.5333333333333
+"Canada","East Africa",2.4
+"Canada","South Asia",3.46666666666667
+"Canada","West Asia",28.5333333333333
+"Canada","SW Europe",4.13333333333333
+"Canada","United States",22.4
+"Canada","Southeast Asia",0.8
+"Canada","Southern Africa",9.2
+"West Africa","Canada",0.266666666666666
+"West Africa","NE Europe",0.4
+"Andes","West Asia",0.399999999999999
+"Andes","NE Europe",0.4
+"East Asia","Australia New Zealand",0.666666666666667
+"East Asia","SE Europe",0.266666666666666
+"East Asia","Canada",135.733333333333
+"East Asia","East Asia",4.79999999999999
+"East Asia","SE Mediterranean",0.8
+"East Asia","NW Europe",8.4
+"East Asia","South Asia",1.73333333333333
+"East Asia","West Asia",0.933333333333333
+"East Asia","NE Europe",2.66666666666666
+"Central Africa","Canada",0.266666666666667
+"Central Africa","Southern Africa",0.266666666666667
+"Central America","Andes",0.266666666666666
+"Central America","SE Mediterranean",0.266666666666667
+"Central America","United States",0.133333333333333
+"Caribbean","Canada",0.266666666666666
+"SE Mediterranean","Andes",0.666666666666666
+"NE Europe","Australia New Zealand",2
+"NE Europe","Andes",3.33333333333333
+"NE Europe","SW Europe",0.4
+"NE Europe","West Asia",2.13333333333333
+"NE Europe","United States",2.4
+"East Asia","Andes",1.2
+"NW Europe","NW Europe",25.7333333333333
+"NW Europe","SW Europe",4.53333333333334
+"SE Mediterranean","SW Europe",0.133333333333333
+"East Africa","Canada",171.733333333333
+"East Africa","Andes",0.4
+"NE Europe","SE Europe",2.93333333333333
+"East Africa","NE Europe",5.86666666666667
+"East Africa","SE Europe",0.533333333333333
+"East Africa","East Asia",3.86666666666667
+"East Africa","NW Europe",0.933333333333332
+"East Africa","South Asia",16.5333333333333
+"East Africa","West Asia",1.2
+"East Africa","United States",1.73333333333333
+"SE Europe","Australia New Zealand",0.266666666666667
+"SE Europe","Andes",0.533333333333333
+"SE Europe","West Asia",0.399999999999999
+"SE Europe","United States",1.6
+"NW Europe","South Asia",2.13333333333333
+"NW Europe","United States",5.2
+"NW Europe","Temp. S. America",0.399999999999999
+"NW Europe","SE Mediterranean",2.8
+"NW Europe","NE Europe",5.6
+"Central Asia","SE Mediterranean",0.8
+"SW Europe","NE Europe",10.8
+"SE Europe","South Asia",0.133333333333333
+"Central America","Canada",39.3333333333334
+"NE Europe","SE Mediterranean",3.33333333333333
+"NE Europe","South Asia",0.8
+"South Asia","Temp. S. America",0.133333333333333
+"South Asia","Andes",0.533333333333333
+"South Asia","East Asia",2.53333333333333
+"South Asia","SE Mediterranean",0.133333333333333
+"South Asia","NW Europe",1.6
+"South Asia","South Asia",2
+"South Asia","West Asia",1.2
+"South Asia","NE Europe",0.8
+"South Asia","East Africa",0.266666666666667
+"South Asia","United States",0.133333333333333
+"Southeast Asia","Canada",2.26666666666667
+"Southeast Asia","Andes",0.133333333333333
+"West Asia","SE Mediterranean",17.7333333333333
+"West Asia","NW Europe",22.9333333333333
+"West Asia","West Asia",24.1333333333333
+"West Asia","Australia New Zealand",0.666666666666666
+"SW Europe","Canada",43.3333333333333
+"SW Europe","Andes",1.33333333333333
+"SW Europe","East Asia",6.53333333333333
+"SW Europe","NW Europe",11.2
+"SW Europe","West Asia",0.933333333333332
+"SW Europe","United States",2.4
+"East Africa","Southern Africa",0.133333333333333
+"Southern Africa","South Asia",12.5333333333333
+"Central America","NE Europe",0.666666666666666
+"Central America","East Asia",0.4
+"Central America","NW Europe",0.8
+"Central America","South Asia",1.06666666666667
+"Central America","West Asia",0.133333333333333
+"SE Mediterranean","Temp. S. America",0.133333333333333
+"Southern Africa","Canada",12.6666666666667
+"Southern Africa","Southern Africa",4.26666666666667
+"Australia New Zealand","Andes",0.4
+"West Asia","Temp. S. America",0.666666666666667
+"West Asia","South Asia",9.06666666666667
+"Southeast Asia","East Asia",0.133333333333333
+"Southeast Asia","SE Mediterranean",0.133333333333333
+"NE Europe","Southeast Asia",0.133333333333333
+"NE Europe","NE Europe",10.8
+"SW Europe","South Asia",0.4
+"NE Europe","Temp. S. America",0.666666666666666
+"NE Europe","East Africa",0.133333333333333
+"Southern Africa","East Asia",0.4
+"Southern Africa","NW Europe",0.8
+"Southern Africa","West Asia",0.4
+"Southern Africa","United States",0.133333333333333
+"West Asia","SE Europe",0.8
+"United States","Temp. S. America",0.4
+"United States","NE Europe",3.06666666666667
+"United States","SE Europe",2
+"United States","Canada",250.666666666667
+"United States","Andes",2
+"United States","East Asia",13.6
+"United States","SE Mediterranean",9.06666666666667
+"United States","NW Europe",15.6
+"United States","South Asia",2.26666666666667
+"United States","West Asia",2.53333333333334
+"United States","SW Europe",0.4
+"United States","Australia New Zealand",0.133333333333333
+"United States","East Africa",0.133333333333333
+"United States","United States",4.26666666666667
+"United States","Southern Africa",0.133333333333333
+"Trop. S. America","Andes",0.133333333333333
+"Southern Africa","Andes",0.133333333333333
+"Southern Africa","NE Europe",0.133333333333333
